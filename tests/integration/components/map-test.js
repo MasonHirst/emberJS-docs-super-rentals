@@ -136,7 +136,7 @@ module('Integration | Component | map', function (hooks) {
 
     assert
       .dom('.map img')
-      .hasAttribute('src', "https://api.mapbox.com")
+      .hasAttribute('src', 'https://api.mapbox.com')
       .hasAttribute('width', '200')
       .hasAttribute('height', '300');
   });
